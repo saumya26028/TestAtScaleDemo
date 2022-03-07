@@ -7,7 +7,7 @@ describe('IndexArray', function() {
   });
     describe('#checkIndex positive()', function() {
     it('the function should return 0 when the value is present', function(){
-      assert.equal(0, [8,9,10].indexOf(9));
+      assert.equal(0, [8,9,10].indexOf(8));
     });
   });
   
